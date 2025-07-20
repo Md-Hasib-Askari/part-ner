@@ -22,3 +22,11 @@ lerna-debug.log*
 # temp directory
 .temp
 .tmp
+
+# copilot
+*/.github
+*/DEVELOPMENT_PROGRESS.md
+
+# IDE specific
+.vscode
+.idea
