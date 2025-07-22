@@ -8,15 +8,15 @@ export default function Home() {
   const router = useRouter();
 
   useEffect(() => {
-    // Redirect to dashboard on load
-    router.push('/dashboard');
+    // Redirect to sign-in on load
+    router.push('/sign-in');
   }, [router]);
 
   return (
     <div className="min-h-screen flex items-center justify-center">
       <div className="text-center space-y-4">
         <Spinner size="lg" />
-        <p className="text-muted-foreground">Redirecting to dashboard...</p>
+        <p className="text-muted-foreground">Redirecting to Sign In...</p>
       </div>
     </div>
   );

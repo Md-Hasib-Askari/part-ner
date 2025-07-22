@@ -26,6 +26,7 @@ lerna-debug.log*
 # copilot
 */.github
 */DEVELOPMENT_PROGRESS.md
+DEVELOPMENT_PROGRESS.md
 
 # IDE specific
 .vscode

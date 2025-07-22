@@ -150,7 +150,7 @@ export default function SignInPage() {
                 <CardHeader className="space-y-1">
                     <CardTitle className="text-2xl font-bold text-center">Welcome back</CardTitle>
                     <CardDescription className="text-center">
-                        Sign in to your account to continue
+                        Sign in to your AI assistant account
                     </CardDescription>
                 </CardHeader>
                 <CardContent className="space-y-4">
