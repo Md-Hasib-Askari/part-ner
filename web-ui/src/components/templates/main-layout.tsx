@@ -50,7 +50,7 @@ export function MainLayout({
                             <span className="sr-only">Open menu</span>
                         </Button>
                     </SheetTrigger>
-                    <SheetContent side="left" className="p-0 w-80">
+                    <SheetContent side="left" className="p-0 w-64">
                         {showSidebar && (
                             <SidebarNavigation
                                 className="h-full border-0"
@@ -102,7 +102,7 @@ export function MainLayout({
                 {showSidebar && (
                     <aside className={cn(
                         "hidden lg:flex flex-col transition-all duration-300 ease-in-out border-r bg-background/95",
-                        sidebarCollapsed ? "w-16" : "w-80"
+                        sidebarCollapsed ? "w-16" : "w-64"
                     )}
                         style={{ backdropFilter: 'blur(8px)' }}>
                         <SidebarNavigation
@@ -121,16 +121,7 @@ export function MainLayout({
                     <header className="hidden lg:flex items-center justify-between p-4 border-b bg-background/95 sticky top-0 z-40"
                         style={{ backdropFilter: 'blur(8px)' }}>
                         <div className="flex items-center space-x-4">
-                            {showSidebar && (
-                                <Button
-                                    variant="ghost"
-                                    size="icon"
-                                    onClick={() => setSidebarCollapsed(!sidebarCollapsed)}
-                                >
-                                    <Menu className="h-5 w-5" />
-                                    <span className="sr-only">Toggle sidebar</span>
-                                </Button>
-                            )}
+                        
                             <div className="flex items-center space-x-2">
                                 <h1 className="text-xl font-semibold">AI-Powered Assistant</h1>
                             </div>
